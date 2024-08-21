@@ -1,0 +1,196 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Georgia', serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Nav Component */
+  nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* CallToAction Component */
+  .call-to-action {
+    background-image: url('https://source.unsplash.com/1600x900/?restaurant,food');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .call-to-action h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .call-to-action button {
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .call-to-action button:hover {
+    background-color: #ff5a4c;
+  }
+  
+  /* Specials Component */
+  #specials {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #specials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  #specials ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #specials li {
+    margin-bottom: 20px;
+  }
+  
+  #specials h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  #specials p {
+    font-size: 1.2em;
+  }
+  
+  /* CustomersSay Component */
+  #customers {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #customers h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  #customers ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #customers li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #customers img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #customers h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  #customers p {
+    font-size: 1.2em;
+  }
+  
+  /* Chicago Component */
+  #chicago {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #chicago h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  #chicago p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* BookingPage Component */
+  #booking {
+    padding: 50px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #booking h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  #booking p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  #booking button {
+    padding: 15px 30px;
+    background-color: #fff;
+    border: none;
+    color: #ff6f61;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #booking button:hover {
+    background-color: #f4f4f4;
+  }  
